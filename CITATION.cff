@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "AmbiguousToolBench"
+message: "If you use this benchmark, please cite the paper."
+authors:
+  - name: "TBD"
+type: software
+version: "1.1.1"
+date-released: 2026-05-18
+license: MIT
+url: "https://github.com/YOUR-ORG/atb"
+preferred-citation:
+  type: conference-paper
+  title: "Ask Before You Act: Measuring Parameter-Level Ambiguity in Tool-Using LLM Agents"
+  year: 2026
+  conference:
+    name: "KDD Workshop on Agentic AI Evaluation"
+  authors:
+    - name: "TBD"
