@@ -128,7 +128,7 @@ atb/
 
 ## What gets measured
 
-Seven metrics per agent (defined formally in the paper, §B):
+Six metrics per agent (defined formally in the paper, §B):
 
 | Metric | What it measures |
 |---|---|
