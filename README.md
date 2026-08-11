@@ -1,6 +1,6 @@
 # AmbiguousToolBench (ATB)
 
-A small, controlled benchmark for measuring whether tool-using LLM agents ask for clarification when the user query under-specifies a required argument. Five reference agents, two splits (noisy + clean), seven metrics. Designed for cross-model comparison.
+A small, controlled benchmark for measuring whether tool-using LLM agents ask for clarification when the user query under-specifies a required argument. Five reference agents, two splits (noisy + clean), six metrics. Designed for cross-model comparison.
 
 See `paper/main.pdf` for the methodology and headline results on Qwen-2.5-14B and Llama-3.1-8B.
 
