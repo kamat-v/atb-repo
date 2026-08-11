@@ -50,13 +50,12 @@ In another terminal:
 python run.py --model Qwen/Qwen2.5-14B-Instruct
 ```
 
-This runs all five agents on the 87 noisy + 100 clean instances, writes per-instance JSON trajectories to `results/qwen2.5-14b-instruct/<agent>/`, and produces `results/qwen2.5-14b-instruct/summary.csv` with the seven-metric summary. Resume-safe: re-running is a no-op for completed (agent, instance) pairs.
+This runs all five agents on the 87 noisy + 100 clean instances, writes per-instance JSON trajectories to `results/qwen2.5-14b-instruct/<agent>/`, and produces `results/qwen2.5-14b-instruct/summary.csv` with the six-metric summary. Resume-safe: re-running is a no-op for completed (agent, instance) pairs.
 
 Wall time is roughly:
 - Qwen-2.5-14B on A100-80GB: ~45 minutes.
 - Llama-3.1-8B on A100-40GB: ~30 minutes.
-- Llama-3.1-70B-AWQ on A100-80GB: ~2–3 hours.
-
+- Llama-3.1-70B-AWQ on A100-80GB: ~2-3 hours.
 ---
 
 ## Common run.py recipes
@@ -139,7 +138,6 @@ Seven metrics per agent (defined formally in the paper, §B):
 | CP | Clarification Precision — fraction of ask-instances where the agent asked about the right parameter |
 | RRAC | Recovery Rate Among Clarified — fraction of asks that recovered the gold value |
 | OverAsk | Fraction of *clean* instances on which the agent asked unnecessarily |
-| UTC | Unnecessary Tool Call rate on clean instances |
 
 The evaluator also computes Wilson 95% confidence intervals on PMR and runs McNemar pairwise tests against StructuralFEP for statistical significance.
 
@@ -206,9 +204,10 @@ Settings (already encoded in the agents and `start_vllm.sh`): greedy decoding (`
 
 ```bibtex
 @inproceedings{atb2026,
-  title={When Should an Agent Ask? A Free-Energy Diagnosis of Trustworthy Clarification in Tool-Using LLMs},
-  author={...},
-  booktitle={KDD Workshop},
+  title={The Free-Energy Principle as a Diagnostic Framework for LLM Agents: Structural Epistemic Action Selection and Its Cross-Model Stability},
+  author={Kamath, Uday and Keenan, Kevin and Kamat, Vikram},
+  eprint={},
+  archivePrefix = {arXiv},
   year={2026}
 }
 ```
