@@ -202,15 +202,7 @@ Settings (already encoded in the agents and `start_vllm.sh`): greedy decoding (`
 
 ## Citation
 
-```bibtex
-@inproceedings{atb2026,
-  title={The Free-Energy Principle as a Diagnostic Framework for LLM Agents: Structural Epistemic Action Selection and Its Cross-Model Stability},
-  author={Kamath, Uday and Keenan, Kevin and Kamat, Vikram},
-  eprint={},
-  archivePrefix = {arXiv},
-  year={2026}
-}
-```
+To be added after de-anonymisation.
 
 ---
 
