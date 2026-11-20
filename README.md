@@ -202,7 +202,7 @@ Settings (already encoded in the agents and `start_vllm.sh`): greedy decoding (`
 
 ## Citation
 
-To be added after de-anonymisation.
+Kamath, U.; Keenan, K.; Kamat, V. The Free-Energy Principle as a Diagnostic Lens for LLM Agents Structural Epistemic Action Selection and Its Cross-Model Stability.
 
 ---
 
