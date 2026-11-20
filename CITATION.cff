@@ -2,17 +2,17 @@ cff-version: 1.2.0
 title: "AmbiguousToolBench"
 message: "If you use this benchmark, please cite the paper."
 authors:
-  - name: "TBD"
+  - name: "Kamath, U.; Keenan, K.; Kamat, V."
 type: software
 version: "1.1.1"
 date-released: 2026-05-18
 license: MIT
-url: "https://github.com/YOUR-ORG/atb"
+url: "https://github.com/kamat-v/atb-repo"
 preferred-citation:
   type: conference-paper
-  title: "Ask Before You Act: Measuring Parameter-Level Ambiguity in Tool-Using LLM Agents"
-  year: 2026
+  title: "The Free-Energy Principle as a Diagnostic Lens for LLM Agents: Structural Epistemic Action Selection and Its Cross-Model Stability"
+  year: 2027
   conference:
-    name: "KDD Workshop on Agentic AI Evaluation"
+    name: "ICAART 2027: 19th International Conference on Agents and Artificial Intelligence"
   authors:
-    - name: "TBD"
+    - name: "Kamath, U.; Keenan, K.; Kamat, V."
